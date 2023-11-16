@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>my project</title>
+		<style>
+			.p1 {
+				color: white;
+				background-color: green;
+				margin: 5px;
+				padding: 3px;
+				width: 98.4%;
+				border-radius: 5px;
+			}
+			.first-paragraph {
+				margin-top: -20px;
+				margin-left: 5px;
+			}
+			.first-heading {
+				margin-top: 10px;
+			}
+			ul {
+				list-style-type: none;
+				padding: 0;
+				overflow: hidden;
+			}
+
+			li {
+				border: 2px solid gray;
+				padding-right: 20px;
+				width: 13%;
+				overflow: hidden;
+				background-color: rgb(185, 185, 185);
+				text-align: left;
+				border-radius: 4px;
+				padding: 5px;
+			}
+			ul li a {
+				color: black;
+				text-decoration: none;
+			}
+			ul :hover {
+				background-color: white;
+			}
+			.fav {
+				margin: 5px;
+				background-color: green;
+				color: white;
+				width: 170px;
+			}
+
+			.fav1 {
+				margin: 5px;
+				width: 170px;
+			}
+			.fav2 {
+				margin: 5px;
+				width: 170px;
+			}
+			.fav3 {
+				margin: 5px;
+				width: 170px;
+			}
+			.fav4 {
+				margin: 5px;
+				width: 170px;
+			}
+			.container {
+				width: 70%;
+				margin: 50px auto;
+				border: 50px solid rgb(231, 233, 235);
+				height: 800px;
+			}
+			.details {
+				margin: 0;
+				float: right;
+				height: 400px;
+				width: 100%;
+				padding-left: 150px;
+			}
+			.a {
+				color: black;
+			}
+			.lin :hover {
+				text-decoration: none;
+			}
+			.hello {
+				border: 2px solid lightskyblue;
+				background-color: lightskyblue;
+				color: white;
+				width: 400px;
+			}
+			.last-p {
+				border: 2px solid rgb(112, 111, 111);
+				background-color: rgb(211, 210, 210);
+				width: 97%;
+				padding: -10px;
+				margin: 10px auto;
+				text-align: center;
+			}
+			.edit-me {
+				padding: 7px;
+			}
+			.xup {
+				padding: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="xup">
+				<div class="p1">
+					<h1 class="first-heading">Welcome to my home page</h1>
+					<p class="first-paragraph">
+						Use the menu to select different Stylesheets
+					</p>
+				</div>
+				<div class="main">
+					<div style="display: flex">
+						<div>
+							<ul>
+								<li class="fav">
+									<a href="stylesheet1.html"> Stylesheet 1</a>
+								</li>
+								<li class="fav1">
+									<a href="stylesheet2.html">Stylesheet 2</a>
+								</li>
+								<li class="fav2">
+									<a href="stylesheet3.html">Stylesheet 3</a>
+								</li>
+								<li class="fav3">
+									<a href="stylesheet4.html">Stylesheet 4</a>
+								</li>
+								<li class="fav4">
+									<a href="no stylesheet.html">No Stylesheet</a>
+								</li>
+							</ul>
+						</div>
+						<div class="edit-me">
+							<h1>Same Page Different Stylesheets</h1>
+							<p>
+								This is a demonstration of how different stylesheets can change
+								the layout of your HTML page. You can change the layout of this
+								page by selecting different stylesheets in the menu, or by
+								selecting one of the following links;
+								<br />
+								<span>
+									<ul class="lin">
+										<a href="stylesheet1.html" class="a"> Stylesheet 1,</a>
+										<a href="stylesheet2.html" class="a">Stylesheet 2,</a>
+										<a href="stylesheet3.html" class="a">Stylesheet 3,</a>
+										<a href="stylesheet4.html" class="a">Stylesheet 4,</a>
+										<a href="no stylesheet.html" class="a">No Stylesheet,</a>
+									</ul>
+								</span>
+							</p>
+							<h2>No Style</h2>
+							<p>
+								This page uses DIV elements to group different sections of the
+								HTML page. Click here to see how the page looks like with no
+								stylesheet: No Stylesheet.
+							</p>
+							<br />
+							<span>
+								<ul class="lin">
+									<a href="no stylesheet.html" class="a">No Stylesheet,</a>
+								</ul>
+							</span>
+						</div>
+						<div class="hello">
+							<h4>Side-Bar</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+								diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+								aliquam erat volutpat.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="last-p">
+					<p>
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+						nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+						volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+						ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+						consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
+						velit esse molestie consequat, vel illum dolore eu feugiat nulla
+						facilisis at vero eros et accumsan et iusto odio dignissim qui
+						blandit praesent luptatum zzril delenit augue duis dolore te feugait
+						nulla facilisi.
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

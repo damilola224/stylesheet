@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.container {
+				width: 70%;
+				margin: 50px auto;
+				border: 50px solid rgb(231, 233, 235);
+				height: 700px;
+			}
+			ul {
+				list-style-type: none;
+				padding: 0;
+				overflow: hidden;
+			}
+
+			.fav1 {
+				margin: 5px;
+				width: 160px;
+				background-color: white;
+
+				text-align: center;
+			}
+			li {
+				border: 2px solid red;
+				padding-right: 20px;
+				width: 13%;
+				overflow: hidden;
+				background-color: red;
+				text-align: left;
+				border-radius: 30px;
+				padding: 5px;
+			}
+			ul li a {
+				color: white;
+				text-decoration: none;
+			}
+			ul :hover {
+				background-color: white;
+				color: red;
+			}
+			.fav {
+				margin: 5px;
+				width: 160px;
+				text-align: center;
+			}
+			.fav2 {
+				margin: 5px;
+				width: 160px;
+				text-align: center;
+			}
+			.fav3 {
+				margin: 5px;
+				width: 160px;
+				text-align: center;
+			}
+			.fav4 {
+				margin: 5px;
+				width: 160px;
+				text-align: center;
+			}
+			.body {
+				border: 2px solid red;
+				background-color: red;
+				height: 43.4em;
+				padding: 10px;
+			}
+			.white {
+				border: 2px solid white;
+				background-color: white;
+			}
+			.sup {
+				border: 2px solid lightcoral;
+				background-color: lightcoral;
+				padding: 10px;
+				color: red;
+			}
+			.first-div {
+				color: white;
+			}
+			h3,
+			h4 {
+				color: red;
+			}
+			.a {
+				color: red;
+				text-decoration: none;
+			}
+			.first-h2 {
+				margin-top: -20px;
+				margin-left: 5px;
+			}
+			.first-h1 {
+				font-size: 50px;
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="body">
+				<div class="first-div">
+					<h1 class="first-h1">Welcome to My Homepage</h1>
+					<h2 class="first-h2">Use the menu to select different Stylesheets</h2>
+				</div>
+				<div class="white" style="display: flex">
+					<div>
+						<h3 class="first-h3">Same Page Dfferent Stylesheets</h3>
+						<p>
+							This is a demonstration of how different stylesheets can change
+							the layout of your HTML page. You can change the layout of thte
+							page by selecting different stylesheets in the menu, or by
+							selecting one of the following links: <br />
+							<span class="lin">
+								<a href="stylesheet1.html" class="a"> Stylesheet 1,</a>
+								<a href="stylesheet2.html" class="a">Stylesheet 2, </a>
+								<a href="stylesheet3.html" class="a">Stylesheet 3,</a>
+								<a href="stylesheet4.html" class="a">Stylesheet 4,</a>
+								<a href="no stylesheet.html" class="a">No Stylesheet,</a>
+							</span>
+						</p>
+						<h4>No Styles</h4>
+						<p>
+							This page uses div element to group different section of the html
+							page. Click here to see how the page looks like with no stylesheet
+							<br />
+							<span class="lin">
+								<a href="no stylesheet.html" class="a">No Stylesheet,</a>
+							</span>
+						</p>
+					</div>
+					<div>
+						<ul>
+							<li class="fav">
+								<a href="stylesheet1.html"> Stylesheet 1</a>
+							</li>
+							<li class="fav1">
+								<a href="stylesheet2.html" style="color: red">
+									<b>Stylesheet 2</b></a
+								>
+							</li>
+							<li class="fav2">
+								<a href="stylesheet3.html">Stylesheet 3</a>
+							</li>
+							<li class="fav3">
+								<a href="stylesheet4.html">Stylesheet 4</a>
+							</li>
+							<li class="fav4">
+								<a href="no stylesheet.html">No Stylesheet</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="sup">
+					<h4 class="first-h4">Side-Bar</h4>
+					<p class="para">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+						nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+						volutpat
+					</p>
+				</div>
+				<div>
+					<p style="text-align: center; font-size: 10px; color: white">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+						nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+						volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+						ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+						consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
+						velit esse molestie consequat, vel illum dolore eu feugiat nulla
+						facilisis at vero eros et accumsan et iusto odio dignissim qui
+						blandit praesent luptatum zzril delenit augue duis dolore te feugait
+						nulla facilisi.
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.container {
+				width: 70%;
+				margin: 50px auto;
+				border: 50px solid rgb(231, 233, 235);
+				height: 800px;
+				color: green;
+				background-color: black;
+				padding: 20px;
+			}
+			.first-para {
+				margin-top: -20px;
+				margin-left: 5px;
+			}
+			.first-head {
+				margin-top: 10px;
+			}
+			ul :hover {
+				color: white;
+			}
+			ul li a {
+				text-decoration: none;
+				color: green;
+			}
+			.side {
+				border: 2px solid white;
+				color: white;
+				margin-left: 500px;
+				padding: 5px;
+				width: 30%;
+			}
+			.a {
+				color: white;
+				margin: 20px;
+				margin-left: -20px;
+			}
+			.lin {
+				margin-left: -19px;
+			}
+			.last-para {
+				border: 2px solid white;
+				color: white;
+				padding: 5px;
+				width: 99%;
+				font-size: 12px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<h1 class="first-head">Welome to My Homepage</h1>
+				<p class="first-para">Use the menu to select different stylesheets</p>
+			</div>
+			<div style="display: flex">
+				<div>
+					<ul>
+						<li class="fav">
+							<a href="stylesheet1.html"> Stylesheet 1</a>
+						</li>
+						<li class="fav1">
+							<a href="stylesheet2.html">Stylesheet 2</a>
+						</li>
+						<li class="fav2">
+							<a href="stylesheet3.html">Stylesheet 3</a>
+						</li>
+						<li class="fav3" style="color: white">
+							<a href="stylesheet4.html" style="color: white">Stylesheet 4</a>
+						</li>
+						<li class="fav4">
+							<a href="no stylesheet.html">No Stylesheet</a>
+						</li>
+					</ul>
+				</div>
+				<div class="side">
+					<h3 style="font-size: 17px">Side-Bar</h3>
+					<p style="font-size: 13px">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+						nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+						volutpat.
+					</p>
+				</div>
+			</div>
+			<div>
+				<h1>Same Page Different Stylesheets</h1>
+				<p>
+					This is a demonstration of how different stylesheets can change the
+					layout of your HTML page. You can change the layout of this page by
+					selecting different stylesheets in the menu, or by selecting one of
+					the following links:
+					<br />
+					<span>
+						<ul class="lin">
+							<a href="stylesheet1.html" class="a"> Stylesheet 1,</a>
+							<a href="stylesheet2.html" class="a">Stylesheet 2,</a>
+							<a href="stylesheet3.html" class="a">Stylesheet 3,</a>
+							<a href="stylesheet4.html" class="a">Stylesheet 4,</a>
+							<a href="no stylesheet.html" class="a">No Stylesheet,</a>
+						</ul>
+					</span>
+				</p>
+			</div>
+			<div>
+				<h2>No Styles</h2>
+				<p>
+					This page uses DIV elements to group different sections of the HTML
+					page. Click here to see how the page looks like with no stylesheet:
+					<br />
+					<span>
+						<ul class="lin">
+							<a href="no stylesheet.html" class="a">No Stylesheet.</a>
+						</ul>
+					</span>
+				</p>
+			</div>
+			<div class="last-para">
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+					nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+					volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+					ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+					molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+					vero eros et accumsan et iusto odio dignissim qui blandit praesent
+					luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
